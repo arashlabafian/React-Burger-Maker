@@ -1,0 +1,30 @@
+.Auth {
+    margin: 5rem auto 0 auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.AuthMode {
+    margin: 10px 0 0 0;
+    color: #5b75a3;
+    padding: 10px;
+}
+
+.Form {
+    padding: 15px;
+}
+
+.SwitchButton {
+    width: auto;
+    padding: 20px 10px;
+    background-color: #f1f4f6;
+}
+
+@media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+    }
+}

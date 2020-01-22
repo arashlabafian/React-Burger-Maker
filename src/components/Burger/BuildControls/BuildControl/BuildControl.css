@@ -1,0 +1,23 @@
+.BuildControl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.BuildControl button {
+    display: block;
+    padding: 15px 1px;
+    margin: 0 12px;
+    width: 75px;
+    /* border: 1px solid rgb(25, 179, 20); */
+    cursor: pointer;
+    outline: none;
+}
+
+.Label {
+    padding: 10px;
+    font-weight: bold;
+    width: 100px;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,20 @@
+/* Add shadows to create the "card" effect */
+.Card {
+    background-color: #34495e;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 1px;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.Card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.IngredientsList {
+    margin: 1rem auto;
+    padding: 0;
+}
